@@ -1,4 +1,8 @@
 import React from 'react'
+import IdeaImage from "../assests/idea-image.avif"
+import DomainImage from "../assests/domain-image.avif"
+import LayoutImage from "../assests/layout-image.avif"
+import PantoneImage from "../assests/pantone-image.avif"
 
 function Project() {
     return (
@@ -8,19 +12,19 @@ function Project() {
             <div className="features-container">
                 <div className="features-inner">
                     <div className="feature1">
-                        <img src="images/domain-image.avif" alt="" srcset="" />
+                        <img src={DomainImage} alt="domain-image" />
                         <p>Enhance your skills by building real websites selected for their educational value.</p>
                     </div>
                     <div className="feature2">
-                        <img src="images/layout-image.avif" alt="" srcset="" />
+                        <img src={LayoutImage} alt="layout-image" />
                         <p>Test and improve your frontend knowledge through various challenges.</p>
                     </div>
                     <div className="feature3">
-                        <img src="images/pantone-image.avif" alt="" srcset="" />
+                        <img src={PantoneImage} alt="pantone-image" />
                         <p>Use the provided color palettes for each project to save time.</p>
                     </div>
                     <div className="feature4">
-                        <img src="images/idea-image.avif" alt="" srcset="" />
+                        <img src={IdeaImage} alt="idea-image" />
                         <p>Find helpful, curated resources to tackle challenging elements.</p>
                     </div>
                 </div>

@@ -22,8 +22,9 @@ function Navbar() {
                 </ul>  */}
                 </div>
                 <div className="navbar-links">
-                    <a href="#home">Home</a>
-                    <a href="#project">Projects</a>
+
+                    <a href='/' >Home</a>
+                    <a href='#project' >Projects</a>
                     <a href="#faq">FAQ</a>
                 </div>
             </div>

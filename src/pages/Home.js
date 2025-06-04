@@ -1,5 +1,5 @@
 import React from 'react'
-
+import ProjectCollage from "../assests/project-collage.png"
 function Home() {
     return (
         <div id="home" className="heropage-container">
@@ -12,12 +12,12 @@ function Home() {
                         challenge?
                     </p>
                     <div className="heropage-links">
-                        <a href="#/view-projects">View Projects</a>
-                        <a href="#/learn-more">Learn More</a>
+                        <a href="#view-projects">View Projects</a>
+                        <a href="#learn-more">Learn More</a>
                     </div>
                 </div>
                 <div className="heropage-image">
-                    <img src="images/project-collage.png" alt="project-collage" />
+                    <img src={ProjectCollage} alt="project-collage" />
                 </div>
             </div>
         </div>
